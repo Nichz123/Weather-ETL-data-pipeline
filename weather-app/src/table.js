@@ -1,3 +1,5 @@
+import './table.css'
+
 export default function Table() {
     return(
         <table>
