@@ -4,7 +4,7 @@ To install please do the following:
 
 1. Clone github repository
 2. Go to Weather API website (https://openweathermap.org/) and create an account and api
-3. Create a .env in the root directory with the following code:
+3. Create a .env in the ./weather-app directory with the following code:
 ```
 api_key = YOUR_API_KEY
 ```
