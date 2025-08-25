@@ -1,5 +1,7 @@
 # Weather ETL data pipeline
 
+![Snapshot of website](snapshot.png)
+
 To install please do the following:
 
 1. Clone github repository
@@ -14,3 +16,8 @@ Replace YOUR_API_KEY with your new api from the website
 npm install
 npm start
 ```
+5. In the website enter data into the form and submit for weather results
+Example:
+* City: Dallas
+* State: TX
+* Country: US
