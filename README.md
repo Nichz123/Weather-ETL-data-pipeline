@@ -1,7 +1,11 @@
 # Weather ETL data pipeline
 
-![Snapshot of website](snapshot.png)
+## Desciption
+This app uses a public weather api to provide a current forecast of a given location.
 
+<img src="snapshot.png" width="500" alt="Snapshot of Website">
+
+## Installation
 To install please do the following:
 
 1. Clone github repository
