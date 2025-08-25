@@ -1,5 +1,3 @@
-
-
 export default function Table() {
     return(
         <table>
@@ -12,9 +10,9 @@ export default function Table() {
             </thead>
             <tbody>
                 <tr>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
+                    <td id="city">N/A</td>
+                    <td id="temperature">N/A</td>
+                    <td id="description">N/A</td>
                 </tr>
             </tbody>
         </table>
