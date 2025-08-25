@@ -8,7 +8,7 @@ To install please do the following:
 2. Go to Weather API website (https://openweathermap.org/) and create an account and api
 3. Create a .env in the ./weather-app directory with the following code:
 ```
-api_key = YOUR_API_KEY
+REACT_APP_API_KEY = YOUR_API_KEY
 ```
 Replace YOUR_API_KEY with your new api from the website
 4. Run your react app using the following commands:
