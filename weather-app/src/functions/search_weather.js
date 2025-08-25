@@ -3,10 +3,17 @@ import axios from 'axios';
 const api_key = process.env.REACT_APP_API_KEY
 
 
-export default async function search_weather(city, state, country) {
+export default async function search_weather() {
+    const form = document.getElementById('city-form');
+    const formData = new FormData(form);
+
+      // Extract values
+      const fcity = formData.get('fcity');
+      const fstate = formData.get('fstate');
+      const fcountry = formData.get('fcountry');
 
     //Extract weather data first by finding the location, then the location's weather data
-    const location = await geocode(city, state, country)
+    const location = await geocode(fcity, fstate, fcountry)
     const weather = await get_weather(location)
 
     //Transform the returned data into a map
