@@ -1,11 +1,8 @@
 import "./button.css"
-
-function search_weather() {
-    
-}
+import search_weather from "./functions/search_weather.js"
 
 export default function Button() {
     return(
-        <button onClick="search_weather()">Click Me!</button>
+        <button onClick={search_weather}>Click Me!</button>
     )
 }
